@@ -9,8 +9,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        darkBackground: "#1D1F20",
+        lightBackground: "#FAFAFA",
+        darkHeading: "#F5F5F5",
+        lightHeading: "#111111",
+        darkBody: "#CDCDCD",
+        lightBody: "#2D2D2D",
+        darkDefaultIcon: "#CDCDCD",
+        lightDefaultIcon: "#2D2D2D",
+        darkThemeIcon: "#29BC89",
+        lightThemeIcon: "#29BC89",
+        darkThemeText: "#29BC89",
+        lightThemeText: "#29BC89",
+        darkGlass: "#313334",
+        lightGlass: "#F2F2F2",
       },
     },
   },

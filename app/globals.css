@@ -4,6 +4,22 @@
 
 :root {
   --font-sometype-mono: "Sometype Mono", monospace;
+  --dark-background: "#1D1F20";
+  --light-background: "#FAFAFA";
+  --dark-heading: "#F5F5F5";
+  --light-heading: "#111111";
+  --dark-body: "#CDCDCD";
+  --light-body: "#2D2D2D";
+  --dark-default-icon: "#CDCDCD";
+  --light-default-icon: "#2D2D2D";
+  --dark-theme-icon: "#29BC89";
+  --light-theme-icon: "#29BC89";
+  --dark-theme-text: "#29BC89";
+  --light-theme-text: "#29BC89";
+  --dark-glass: "#313334";
+  --light-glass: "#F2F2F2";
+  --dark-stroke: "";
+  --light-stroke: "";
 }
 
 body {
@@ -12,6 +28,6 @@ body {
 
 @layer base {
   body {
-    @apply dark:bg-gray-800 bg-white;
+    @apply dark:bg-[#1D1F20] bg-gray-200;
   }
 }
