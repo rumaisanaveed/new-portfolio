@@ -4,14 +4,13 @@ import Image from "next/image";
 import React from "react";
 import NightLight from "../../public/icons/nightLight.svg";
 import nightDark from "../../public/icons/nightDark.svg";
+import useThemeToggle from "../hooks/useThemeToggle";
 
 export const ThemeToggleButton = () => {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const { currentTheme, toggleTheme } = useThemeToggle();
+
   return (
-    <button
-      onClick={() => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
-    >
+    <button onClick={() => toggleTheme()}>
       {currentTheme === "dark" ? (
         <Image src={NightLight} alt="night" width={20} height={20} />
       ) : (
