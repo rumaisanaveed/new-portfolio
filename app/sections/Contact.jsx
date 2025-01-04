@@ -1,20 +1,34 @@
+"use client";
 import React from "react";
 import { socials } from "../constants";
 import Link from "next/link";
 import Image from "next/image";
+import Heading from "../components/ui/Heading";
+import useThemeToggle from "../hooks/useThemeToggle";
 
 export const Contact = () => {
+  const { currentTheme } = useThemeToggle();
   return (
-    <div>
-      <h1>Contact</h1>
-      {socials.map((social, index) => (
-        <div key={index}>
-          <Link href={social.link}>
-            <Image src={social.icon} alt={social.title} />
-            <p>{social.title}</p>
+    <div className="flex flex-col gap-5">
+      <Heading title="Contact" />
+      <div className="flex gap-8">
+        {socials.map((social, index) => (
+          <Link
+            href={social.link}
+            className="flex gap-1"
+            key={index}
+            target="blank"
+          >
+            <Image
+              src={currentTheme === "dark" ? social.icon : social.darkIcon}
+              alt={social.title}
+            />
+            <p className="text-lg font-medium text-lightBody dark:text-darkBody">
+              {social.title}
+            </p>
           </Link>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

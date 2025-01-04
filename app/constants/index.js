@@ -4,6 +4,8 @@ import LinkedInLight from "../../public/icons/linkedinLight.svg";
 import LinkedInDark from "../../public/icons/linkedinDark.svg";
 import InstaDark from "../../public/icons/instaDark.svg";
 import instaLight from "../../public/icons/instaLight.svg";
+import GithubDark from "../../public/icons/githubDark.svg";
+import GithubLight from "../../public/icons/githubLight.svg";
 
 export const experience = [
   {
@@ -48,26 +50,33 @@ export const experience = [
   },
 ];
 
-export const skills = {
-  frontendTechnologies: [
-    "Next.js",
-    "React.js",
-    "Ant Design",
-    "TypeScript",
-    "JavaScript",
-    "Redux & Redux Toolkit",
-    "Tailwind CSS",
-    "HTML5 & CSS3",
-    "Firebase",
-  ],
-  animations: ["Framer Motion", "GSAP"],
-  apiIntegration: ["RESTful APIs", "Axios", "Fetch"],
-  toolsAndPlatforms: ["VS Code", "Figma", "Slack", "Postman"],
-  versionControl: ["Git", "GitHub"],
-  authentication: ["Next Auth, Clerk, Firebase Auth"],
-  backendTechnologies: ["Node.js", "Express.js"],
-  databases: ["MongoDB", "Firebase Firestore"],
-};
+export const skills = [
+  "Next.js",
+  "React.js",
+  "Ant Design",
+  "TypeScript",
+  "JavaScript",
+  "Redux & Redux Toolkit",
+  "Tailwind CSS",
+  "HTML5 & CSS3",
+  "Firebase",
+  "Framer Motion",
+  "GSAP",
+  "RESTful APIs",
+  "Axios",
+  "Fetch",
+  "VS Code",
+  "Figma",
+  "Slack",
+  "Postman",
+  "Git",
+  "GitHub",
+  "Next Auth, Clerk, Firebase Auth",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Firebase Firestore",
+];
 
 export const projects = [
   {
@@ -76,29 +85,49 @@ export const projects = [
       "ResuMaker is a versatile web application designed to make resume creation simple and efficient for users preparing for their next roles.",
     techStack:
       "Next.js - React.js - Firebase - Tailwind CSS - Ant Design - Clerk",
+    link: "https://github.com/rumaisanaveed/resumaker",
   },
   {
     name: "Emoji Vault",
     description:
       "Emoji Vault is a dynamic web application that lets users quickly search for and access their favorite emojis to use anywhere.",
     techStack: "React.js - Axios - Tailwind CSS - Ant Design - Context Api",
+    link: "https://github.com/rumaisanaveed/emoji-vault",
   },
 ];
 
 export const socials = [
   {
     title: "rumaisanaved@gmail.com",
-    link: "",
+    link: "rumaisanaved@gmail.com",
     icon: EmailLight,
+    darkIcon: EmailDark,
   },
   {
     title: "@rumaisanaved",
-    link: "",
+    link: "https://www.linkedin.com/in/rumaisa-naved-a6b96a230/",
     icon: LinkedInLight,
+    darkIcon: LinkedInDark,
   },
   {
-    title: "@techgirl.guide",
-    link: "",
+    title: "@codergirllife",
+    link: "https://www.instagram.com/codergirllife/profilecard/?igsh=MXc5Z2Rtd21nYTdqdg==",
     icon: instaLight,
+    darkIcon: InstaDark,
+  },
+];
+
+export const aboutSocials = [
+  {
+    id: 1,
+    darkIcon: LinkedInDark,
+    lightIcon: LinkedInLight,
+    link: "https://www.linkedin.com/in/rumaisa-naved-a6b96a230/",
+  },
+  {
+    id: 2,
+    darkIcon: GithubDark,
+    lightIcon: GithubLight,
+    link: "https://github.com/rumaisanaveed",
   },
 ];
