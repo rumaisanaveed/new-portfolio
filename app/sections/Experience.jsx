@@ -9,10 +9,13 @@ export const Experience = () => {
     <div className="flex flex-col gap-5">
       <Heading title="Experience" />
       {experience.map((exp, index) => (
-        <div key={index} className="flex justify-between">
+        <div
+          key={index}
+          className="flex flex-col gap-6 md:gap-3 lg:gap-0 lg:flex-row lg:justify-between"
+        >
           <div className="w-full">
             <div className="flex gap-3">
-              <Image src={Calendar} alt="calendar" />
+              <Image src={Calendar} alt="calendar" width="auto" height="auto" />
               <h1 className="text-themeText text-sm font-medium">
                 {exp.duration}
               </h1>

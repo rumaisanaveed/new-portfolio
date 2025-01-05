@@ -10,9 +10,9 @@ import { Skills } from "./sections/Skills";
 
 export default function Home() {
   return (
-    <div className="w-3/4 mx-auto py-20 flex flex-col gap-10">
+    <div className="w-full px-8 md:w-11/12 lg:px-0 lg:w-3/4 mx-auto py-20 flex flex-col gap-10">
       <Header />
-      <div className="flex flex-col gap-7 py-10">
+      <div className="flex flex-col gap-7 py-5 lg:py-10">
         <About />
         <Separator />
         <Experience />

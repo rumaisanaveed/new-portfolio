@@ -1,10 +1,7 @@
-"use client";
 import React from "react";
 import { ThemeToggleButton } from "../components/ThemeToggleButton";
-import useThemeToggle from "../hooks/useThemeToggle";
 
 export const Header = () => {
-  const { currentTheme } = useThemeToggle();
   return (
     <div className="flex items-center justify-between">
       <div className="flex items-center gap-5">

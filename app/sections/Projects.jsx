@@ -17,7 +17,7 @@ export const Projects = () => {
                 <h1 className="text-2xl font-bold dark:text-darkHeading text-lightHeading">
                   {project.name}
                 </h1>
-                <Image src={GreenLink} alt="link" />
+                <Image src={GreenLink} alt="link" width="auto" height="auto" />
               </div>
               <h2 className="text-lg font-medium text-lightBody dark:text-darkBody">
                 {project.description}

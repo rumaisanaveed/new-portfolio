@@ -11,7 +11,7 @@ export const Contact = () => {
   return (
     <div className="flex flex-col gap-5">
       <Heading title="Contact" />
-      <div className="flex gap-8">
+      <div className="flex flex-col md:flex-row gap-8">
         {socials.map((social, index) => (
           <Link
             href={social.link}
@@ -22,6 +22,8 @@ export const Contact = () => {
             <Image
               src={currentTheme === "dark" ? social.icon : social.darkIcon}
               alt={social.title}
+              width="auto"
+              height="auto"
             />
             <p className="text-lg font-medium text-lightBody dark:text-darkBody">
               {social.title}
