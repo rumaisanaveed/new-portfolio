@@ -49,7 +49,7 @@ I deployed my website on **Netlify**. You can visit the live website here: [Ruma
 
 Check out the demo video here:
 
-https://github.com/user-attachments/assets/f19000b5-60ec-4acb-bd20-53a2ba10caf3
+https://github.com/user-attachments/assets/e76df030-bb55-41cc-9bf8-0628ae12ecc0
 
 ---
 
