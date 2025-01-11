@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
       <div className="flex items-center gap-5">
         <div className="rounded-full h-20 w-20">
           <Image
@@ -29,7 +29,7 @@ export const Header = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row-reverse md:items-center gap-3 md:gap-2">
+      <div className="flex md:flex-row-reverse items-center gap-5">
         <ThemeToggleButton />
         <ResumeDownloadButton />
       </div>
