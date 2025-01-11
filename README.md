@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Personal Portfolio Website 🌐
 
-## Getting Started
+Presenting my brand-new portfolio website, which I built using **Next.js** and **Tailwind CSS**. 🚀
 
-First, run the development server:
+## Tech Stack 🛠️
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js** 
+- **React.js** 
+- **Tailwind CSS**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Packages 📦
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next Themes** for adding dark and light mode functionality.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## The Process 📝
 
-## Learn More
+If you want to learn about how I started and completed this project, you can take a look at my article here: [Building My Portfolio Website with Next.js and Tailwind CSS](https://rumaisanaveed.hashnode.dev/building-my-portfolio-website-with-nextjs-and-tailwind-css), where I shared everything in detail about the implementation.
 
-To learn more about Next.js, take a look at the following resources:
+## What Did I Learn? 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I didn't learn much, but I did gain experience in adding light and dark modes in **Next.js**, something I had not done before. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How Can You Run the Project? 🚀
 
-## Deploy on Vercel
+To run the project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rumaisanaveed/new-portfolio.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Visit `http://localhost:3000` in your browser 🌍.
+
+## Deployment 🌍
+
+I deployed my website on **Netlify**. You can visit the live website here: [Rumaisa's Portfolio Website](https://rumaisa.netlify.app).
+
+## Live Demo 🎥
+
+Check out the demo video here:
+
+https://github.com/user-attachments/assets/f19000b5-60ec-4acb-bd20-53a2ba10caf3
+
+---
+
+Thank you for checking out my portfolio! 😊  
+Keep learning and keep coding amazing things 🤍 - Rumaisa Naveed
