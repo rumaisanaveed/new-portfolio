@@ -10,7 +10,7 @@ export const Projects = () => {
     <div className="flex flex-col gap-5">
       <Heading title="Projects" />
       {projects.map((project, index) => (
-        <Link href={project.link} target="blank" key={index}>
+        <Link href={project.link} target="_blank" key={index}>
           <div className="dark:bg-darkGlass bg-lightGlass rounded p-8 flex flex-col gap-4">
             <div className="flex flex-col gap-3">
               <div className="flex justify-between">

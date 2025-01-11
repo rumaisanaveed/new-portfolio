@@ -6,6 +6,8 @@ import InstaDark from "../../public/icons/instaDark.svg";
 import instaLight from "../../public/icons/instaLight.svg";
 import GithubDark from "../../public/icons/githubDark.svg";
 import GithubLight from "../../public/icons/githubLight.svg";
+import HashnodeLight from "../../public/icons/hashnodeLight.svg";
+import HashnodeDark from "../../public/icons/hashnodeDark.svg";
 
 export const experience = [
   {
@@ -53,6 +55,7 @@ export const experience = [
 export const skills = [
   "Next.js",
   "React.js",
+  "React Native",
   "Ant Design",
   "TypeScript",
   "JavaScript",
@@ -137,6 +140,12 @@ export const aboutSocials = [
     darkIcon: GithubDark,
     lightIcon: GithubLight,
     link: "https://github.com/rumaisanaveed",
+  },
+  {
+    id: 3,
+    darkIcon: HashnodeDark,
+    lightIcon: HashnodeLight,
+    link: "https://rumaisanaveed.hashnode.dev/",
   },
 ];
 

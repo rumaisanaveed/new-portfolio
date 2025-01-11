@@ -14,12 +14,14 @@ export const About = () => {
       <div className="flex flex-col gap-4">
         <p className="text-lg font-medium dark:text-darkBody text-lightBody">
           I'm a passionate Software Engineer with a focus on solving problems
-          and delivering impactful results. While I currently specialize in
-          frontend development, I am highly adaptable and quick to learn any
+          and delivering impactful results. While I currently specialize in web
+          and app development, I am highly adaptable and quick to learn any
           field or technology where I’ll get to learn something new. I’m ready
           to work in collaborative environments, where being part of a great
           team allows me to contribute meaningfully while growing both
-          personally and professionally
+          personally and professionally. I also write articles in my free time
+          to share my learnings about tech, I also share about my personal and
+          professional journey as well.
         </p>
         <div className="flex items-center gap-3">
           <p className="text-lg font-medium dark:text-darkBody text-lightBody">
@@ -27,14 +29,14 @@ export const About = () => {
           </p>
           <div className="flex items-center gap-2">
             {aboutSocials.map((social, index) => (
-              <Link href={social.link} target="blank" key={index}>
+              <Link href={social.link} target="_blank" key={index}>
                 <Image
                   src={
                     currentTheme === "dark" ? social.lightIcon : social.darkIcon
                   }
                   alt="social"
-                  height={social.id === 1 ? 26 : 24}
-                  width={social.id === 1 ? 26 : 24}
+                  height={social.id === 1 || social.id === 3 ? 26 : 24}
+                  width={social.id === 1 || social.id === 3 ? 26 : 24}
                   className="object-contain"
                 />
               </Link>

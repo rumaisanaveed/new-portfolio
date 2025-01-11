@@ -17,7 +17,7 @@ export const Contact = () => {
             href={social.link}
             className="flex gap-1"
             key={index}
-            target="blank"
+            target="_blank"
           >
             <Image
               src={currentTheme === "dark" ? social.icon : social.darkIcon}

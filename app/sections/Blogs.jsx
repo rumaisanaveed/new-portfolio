@@ -11,7 +11,7 @@ export const Blogs = () => {
       <Heading title="Blogs" />
       <article className="flex flex-col gap-5 lg:gap-3 justify-between">
         {blogs.map((blog) => (
-          <Link href={blog.link} target="blank" key={blog.id}>
+          <Link href={blog.link} target="_blank" key={blog.id}>
             <div className="flex flex-col gap-3 lg:flex-row lg:justify-between">
               <div className="w-full">
                 <div className="flex items-center gap-3">
