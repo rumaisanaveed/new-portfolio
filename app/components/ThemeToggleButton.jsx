@@ -11,9 +11,21 @@ export const ThemeToggleButton = () => {
   return (
     <button onClick={() => toggleTheme()}>
       {currentTheme === "dark" ? (
-        <Image src={NightLight} alt="night" width={30} height={30} />
+        <Image
+          src={NightLight}
+          alt="night"
+          width={30}
+          height={30}
+          className="object-contain"
+        />
       ) : (
-        <Image src={nightDark} alt="light" width={30} height={30} />
+        <Image
+          src={nightDark}
+          alt="light"
+          width={30}
+          height={30}
+          className="object-contain"
+        />
       )}
     </button>
   );

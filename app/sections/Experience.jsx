@@ -14,8 +14,14 @@ export const Experience = () => {
           className="flex flex-col gap-6 md:gap-3 lg:gap-0 lg:flex-row lg:justify-between"
         >
           <div className="w-full">
-            <div className="flex gap-3">
-              <Image src={Calendar} alt="calendar" width="auto" height="auto" />
+            <div className="flex items-center gap-3">
+              <Image
+                src={Calendar}
+                alt="calendar"
+                height={20}
+                width={20}
+                className="object-contain"
+              />
               <h1 className="text-themeText text-sm font-medium">
                 {exp.duration}
               </h1>

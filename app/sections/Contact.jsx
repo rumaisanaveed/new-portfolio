@@ -22,8 +22,7 @@ export const Contact = () => {
             <Image
               src={currentTheme === "dark" ? social.icon : social.darkIcon}
               alt={social.title}
-              width="auto"
-              height="auto"
+              className="object-contain"
             />
             <p className="text-lg font-medium text-lightBody dark:text-darkBody">
               {social.title}

@@ -35,6 +35,7 @@ export const About = () => {
                   alt="social"
                   height={social.id === 1 ? 26 : 24}
                   width={social.id === 1 ? 26 : 24}
+                  className="object-contain"
                 />
               </Link>
             ))}

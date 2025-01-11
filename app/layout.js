@@ -8,8 +8,11 @@ const someTypeMono = Sometype_Mono({
 });
 
 export const metadata = {
-  title: "Rumaisa Naveed",
-  description: "",
+  title: "Rumaisa Naveed | Frontend Developer",
+  description: "My professional portfolio website created with Next.js",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -94,6 +94,14 @@ export const projects = [
     techStack: "React.js - Axios - Tailwind CSS - Ant Design - Context Api",
     link: "https://github.com/rumaisanaveed/emoji-vault",
   },
+  {
+    name: "Noto",
+    description:
+      "Noto is a mini mobile app that lets users add notes, read notes, update notes and delete notes",
+    techStack:
+      "Expo - React Native - Firebase - React - StyleSheet - React native toast message - Context api",
+    link: "https://github.com/rumaisanaveed/noto",
+  },
 ];
 
 export const socials = [
@@ -129,5 +137,24 @@ export const aboutSocials = [
     darkIcon: GithubDark,
     lightIcon: GithubLight,
     link: "https://github.com/rumaisanaveed",
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    link: "https://rumaisanaveed.hashnode.dev/how-to-add-a-good-readme-in-your-github-projects",
+    title: "How to add a good readme in your GitHub projects",
+    subTitle: "Standout from the Crowd by Making Your GitHub Profile Unique",
+    date: "Jan 6, 2025",
+  },
+  {
+    id: 2,
+    link: "https://rumaisanaveed.hashnode.dev/how-to-prepare-for-technical-interviews-a-detailed-guide-for-big-companies-and-startups",
+    title:
+      "How to Prepare for Technical Interviews: A Detailed Guide for Big Companies and Startups",
+    subTitle:
+      "A step-by-step guide to mastering technical interview preparation for both big tech companies and small startups.",
+    date: "Jan 1, 2025",
   },
 ];
