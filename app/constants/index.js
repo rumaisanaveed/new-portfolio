@@ -152,18 +152,26 @@ export const aboutSocials = [
 export const blogs = [
   {
     id: 1,
+    link: "https://rumaisanaveed.hashnode.dev/lessons-from-my-university-journey-mistakes-i-made-and-advice-for-future-students",
+    title:
+      "Lessons from My University Journey: Mistakes I Made and Advice for Future Students",
+    subTitle:
+      "Make the most of your university years by learning from my experiences and avoiding the common pitfalls",
+    date: "Jan 23, 2025",
+  },
+  {
+    id: 2,
+    link: "https://rumaisanaveed.hashnode.dev/how-to-fix-expo-app-not-replacing-env-variables-on-web",
+    title: "How to fix Expo App Not Replacing Env Variables on Web",
+    subTitle:
+      "Learn how to fix the issue of Expo app not replacing environment variables on the web.",
+    date: "Jan 20, 2025",
+  },
+  {
+    id: 3,
     link: "https://rumaisanaveed.hashnode.dev/how-to-add-a-good-readme-in-your-github-projects",
     title: "How to add a good readme in your GitHub projects",
     subTitle: "Standout from the Crowd by Making Your GitHub Profile Unique",
     date: "Jan 6, 2025",
-  },
-  {
-    id: 2,
-    link: "https://rumaisanaveed.hashnode.dev/how-to-prepare-for-technical-interviews-a-detailed-guide-for-big-companies-and-startups",
-    title:
-      "How to Prepare for Technical Interviews: A Detailed Guide for Big Companies and Startups",
-    subTitle:
-      "A step-by-step guide to mastering technical interview preparation for both big tech companies and small startups.",
-    date: "Jan 1, 2025",
   },
 ];
