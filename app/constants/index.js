@@ -78,22 +78,35 @@ export const skills = [
   "Figma",
   "Slack",
   "Postman",
+  "API Testing",
+  "Software Testing",
+  "Functional Testing",
+  "Testing Methodologies",
+  "Agile Methodologies",
+  "SDLC",
+  "STLC",
+  "Bug Tracking",
+  "Bug Reporting",
+  "Test cases design",
+  "Test case execution",
+  "Test case planning",
 ];
 
 export const projects = [
   {
     name: "Resumaker",
     description:
-      "ResuMaker is a versatile web application designed to make resume creation simple and efficient for users preparing for their next roles.",
+      "ResuMaker is a versatile web application designed to make resume creation simple and efficient for users preparing for their next roles. Performed testing to ensure a seamless user experience, with functionality, UI, and performance thoroughly validated through manual testing processes.",
     techStack:
-      "Next.js - React.js - Firebase - Tailwind CSS - Ant Design - Clerk",
+      "Next.js - React.js - Firebase - Tailwind CSS - Ant Design - Clerk - Software Testing - Functional Testing - Jira - Notion - Bug Reporting - Bug Tracking - Regression Testing - Testing Documentation",
     link: "https://github.com/rumaisanaveed/resumaker",
   },
   {
     name: "Emoji Vault",
     description:
-      "Emoji Vault is a dynamic web application that lets users quickly search for and access their favorite emojis to use anywhere.",
-    techStack: "React.js - Axios - Tailwind CSS - Ant Design - Context Api",
+      "Emoji Vault is a dynamic web application that lets users quickly search for and access their favorite emojis to use anywhere. Conducted manual testing by writing test cases, reporting bugs, debugging issues, and performing regression testing to ensure a seamless user experience.",
+    techStack:
+      "React.js - Axios - Tailwind CSS - Ant Design - Context Api - Test case design - Test case execution - Test scenario writing - Jira - Notion - Software Testing - Functional Testing - Performance Testing - Bug Tracking - Bug Reporting - Testing Documentation",
     link: "https://github.com/rumaisanaveed/emoji-vault",
   },
   {

@@ -13,15 +13,15 @@ export const About = () => {
       <Heading title="Hey! I'm Rumaisa" />
       <div className="flex flex-col gap-4">
         <p className="text-lg font-medium dark:text-darkBody text-lightBody">
-          I'm a passionate Software Engineer with a focus on solving problems
-          and delivering impactful results. While I currently specialize in web
-          and app development, I am highly adaptable and quick to learn any
-          field or technology where I’ll get to learn something new. I’m ready
-          to work in collaborative environments, where being part of a great
-          team allows me to contribute meaningfully while growing both
-          personally and professionally. I also write articles in my free time
-          to share my learnings about tech, I also share about my personal and
-          professional journey as well.
+          I am a passionate Software Developer and Tester focused on solving
+          problems and delivering impactful results. I specialize in developing
+          and testing web and app development. My adaptability allows me to
+          quickly learn new technologies and testing methodologies. I thrive in
+          collaborative environments, contributing to both development and
+          quality assurance processes. Skilled in bug tracking, test case
+          design, and debugging, I help enhance software reliability. In my free
+          time, I write articles to share my tech learnings and insights with
+          the community.
         </p>
         <div className="flex items-center gap-3">
           <p className="text-lg font-medium dark:text-darkBody text-lightBody">
