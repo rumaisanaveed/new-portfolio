@@ -25,7 +25,7 @@ export const Header = () => {
             Rumaisa Naveed
           </h1>
           <h2 className="font-normal text-lg dark:text-darkBody text-lightBody">
-            Software Engineer | SQA Engineer
+            Software Engineer
           </h2>
         </div>
       </div>
@@ -42,7 +42,7 @@ const ResumeDownloadButton = () => {
   return (
     <Link
       href="/resume.pdf"
-      download="RumaisaResume - FrontendDevAndSQAEngineer"
+      download="RumaisaResume - FrontendDeveloper"
       target="_blank"
     >
       <Image
