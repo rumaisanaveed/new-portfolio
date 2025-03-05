@@ -8,7 +8,7 @@ const someTypeMono = Sometype_Mono({
 });
 
 export const metadata = {
-  title: "Rumaisa Naveed | Frontend Developer",
+  title: "Rumaisa Naveed | MERN Stack Developer",
   description: "My professional portfolio website created with Next.js",
   icons: {
     icon: "/favicon.svg",

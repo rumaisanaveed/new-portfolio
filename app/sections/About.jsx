@@ -15,13 +15,13 @@ export const About = () => {
         <p className="text-lg font-medium dark:text-darkBody text-lightBody">
           I'm a passionate Software Engineer with a focus on solving problems
           and delivering impactful results. While I currently specialize in web
-          and app development, I am highly adaptable and quick to learn any
-          field or technology where I’ll get to learn something new. I’m ready
-          to work in collaborative environments, where being part of a great
-          team allows me to contribute meaningfully while growing both
-          personally and professionally. I also write articles in my free time
-          to share my learnings about tech, I also share about my personal and
-          professional journey as well.
+          and app development (MERN Stack and React Native), I am highly
+          adaptable and quick to learn any field or technology where I’ll get to
+          learn something new. I’m ready to work in collaborative environments,
+          where being part of a great team allows me to contribute meaningfully
+          while growing both personally and professionally. I also write
+          articles in my free time to share my learnings about tech, I also
+          share about my personal and professional journey as well.
         </p>
         <div className="flex items-center gap-3">
           <p className="text-lg font-medium dark:text-darkBody text-lightBody">

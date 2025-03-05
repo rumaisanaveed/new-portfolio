@@ -42,7 +42,7 @@ const ResumeDownloadButton = () => {
   return (
     <Link
       href="/resume.pdf"
-      download="RumaisaResume - FrontendDeveloper"
+      download="RumaisaResume - MERNStackDeveloper"
       target="_blank"
     >
       <Image

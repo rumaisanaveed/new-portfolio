@@ -78,18 +78,9 @@ export const skills = [
   "Figma",
   "Slack",
   "Postman",
-  "API Testing",
-  "Software Testing",
-  "Functional Testing",
-  "Testing Methodologies",
   "Agile Methodologies",
   "SDLC",
   "STLC",
-  "Bug Tracking",
-  "Bug Reporting",
-  "Test cases design",
-  "Test case execution",
-  "Test case planning",
 ];
 
 export const projects = [
@@ -98,15 +89,14 @@ export const projects = [
     description:
       "ResuMaker is a versatile web application designed to make resume creation simple and efficient for users preparing for their next roles.",
     techStack:
-      "Next.js - React.js - Firebase - Tailwind CSS - Ant Design - Clerk - Software Testing - Functional Testing - Jira - Notion - Bug Reporting - Bug Tracking - Regression Testing - Testing Documentation",
+      "Next.js - React.js - Firebase - Tailwind CSS - Ant Design - Clerk",
     link: "https://github.com/rumaisanaveed/resumaker",
   },
   {
     name: "Emoji Vault",
     description:
       "Emoji Vault is a dynamic web application that lets users quickly search for and access their favorite emojis to use anywhere.",
-    techStack:
-      "React.js - Axios - Tailwind CSS - Ant Design - Context Api - Test case design - Test case execution - Test scenario writing - Jira - Notion - Software Testing - Functional Testing - Performance Testing - Bug Tracking - Bug Reporting - Testing Documentation",
+    techStack: "React.js - Axios - Tailwind CSS - Ant Design - Context Api",
     link: "https://github.com/rumaisanaveed/emoji-vault",
   },
   {
