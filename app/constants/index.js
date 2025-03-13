@@ -12,7 +12,7 @@ import HashnodeDark from "../../public/icons/hashnodeDark.svg";
 export const experience = [
   {
     title: "Associate Software Engineer - Native Brains",
-    duration: "May 2024 - June 2024",
+    duration: "May 2024 - July 2024",
     description: [
       "Translated wireframes into functional and responsive front-end code, contributing to a seamless user experience and efficient project development.",
       "Collaborated closely with backend developers and designers, ensuring smooth integration of design elements and APIs to meet project requirements and deadlines.",
