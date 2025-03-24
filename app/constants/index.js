@@ -53,37 +53,37 @@ export const experience = [
 ];
 
 export const skills = [
+  "HTML5",
+  "CSS3",
+  "JavaScript",
+  "TypeScript",
   "Next.js",
   "React.js",
   "Redux & Redux Toolkit",
-  "React Native",
+  "React Native (Basic)",
   "API Integration",
-  "RESTful APIs",
   "Ant Design",
-  "JavaScript",
-  "TypeScript",
+  "ShadCn",
   "Tailwind CSS",
-  "HTML5 & CSS3",
   "Firebase",
   "Next Auth",
   "Clerk",
-  "Node.js",
-  "Express.js",
-  "MongoDB",
   "Framer Motion",
   "GSAP",
   "Git",
   "GitHub",
-  "VS Code",
-  "Figma",
-  "Slack",
   "Postman",
-  "Agile Methodologies",
-  "SDLC",
-  "STLC",
 ];
 
 export const projects = [
+  {
+    name: "Quick Apply",
+    description:
+      "Quick Apply is a web app designed to make your email template creation process easier. It lets users create, edit, and manage email templates for job applications. (On-going)",
+    techStack:
+      "Next.js - React.js - Next Auth - Mongoose - Shadcn - Tailwind CSS - React hook form",
+    link: "https://github.com/rumaisanaveed/quick-apply",
+  },
   {
     name: "Resumaker",
     description:
