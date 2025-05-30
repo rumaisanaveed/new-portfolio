@@ -76,14 +76,14 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    name: "Quick Apply",
-    description:
-      "Quick Apply is a web app designed to make your email template creation process easier. It lets users create, edit, and manage email templates for job applications. (On-going)",
-    techStack:
-      "Next.js - React.js - Next Auth - Mongoose - Shadcn - Tailwind CSS - React hook form",
-    link: "https://github.com/rumaisanaveed/quick-apply",
-  },
+  // {
+  //   name: "Quick Apply",
+  //   description:
+  //     "Quick Apply is a web app designed to make your email template creation process easier. It lets users create, edit, and manage email templates for job applications. (On-going)",
+  //   techStack:
+  //     "Next.js - React.js - Next Auth - Mongoose - Shadcn - Tailwind CSS - React hook form",
+  //   link: "https://github.com/rumaisanaveed/quick-apply",
+  // },
   {
     name: "Resumaker",
     description:
