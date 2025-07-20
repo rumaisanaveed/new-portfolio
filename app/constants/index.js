@@ -60,7 +60,9 @@ export const skills = [
   "Next.js",
   "React.js",
   "Redux & Redux Toolkit",
-  "React Native (Basic)",
+  "React Query",
+  "Zustand",
+  "React Native",
   "API Integration",
   "Ant Design",
   "ShadCn",
@@ -69,21 +71,12 @@ export const skills = [
   "Next Auth",
   "Clerk",
   "Framer Motion",
-  "GSAP",
   "Git",
   "GitHub",
   "Postman",
 ];
 
 export const projects = [
-  // {
-  //   name: "Quick Apply",
-  //   description:
-  //     "Quick Apply is a web app designed to make your email template creation process easier. It lets users create, edit, and manage email templates for job applications. (On-going)",
-  //   techStack:
-  //     "Next.js - React.js - Next Auth - Mongoose - Shadcn - Tailwind CSS - React hook form",
-  //   link: "https://github.com/rumaisanaveed/quick-apply",
-  // },
   {
     name: "Resumaker",
     description:
@@ -100,12 +93,12 @@ export const projects = [
     link: "https://github.com/rumaisanaveed/emoji-vault",
   },
   {
-    name: "Noto",
+    name: "Moody",
     description:
-      "Noto is a mini mobile app that lets users add notes, read notes, update notes and delete notes",
+      "A beautifully designed mobile app that lets users track their moods over the last 7 days and receive quotes based on how they feel. Users can also add personal notes and monitor their sleep and mood patterns through charts — helping them better understand and manage their emotional well-being.",
     techStack:
-      "Expo - React Native - Firebase - React - StyleSheet - React native toast message - Context api",
-    link: "https://github.com/rumaisanaveed/noto",
+      "Expo - React Native - Firebase - React - APi Integration - React Query, Zustand, TypeScript",
+    link: "https://github.com/rumaisanaveed/moody",
   },
 ];
 
