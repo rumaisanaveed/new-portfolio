@@ -40,10 +40,11 @@ export const Header = () => {
 const ResumeDownloadButton = () => {
   const { currentTheme } = useThemeToggle();
   return (
-    <Link
+    <a
       href="/resume.pdf"
-      download="RumaisaResume - Frontend Developer"
+      download="RumaisaResume-FrontendDeveloper.pdf"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <Image
         src={currentTheme === "dark" ? LightResume : DarkResume}
@@ -51,6 +52,6 @@ const ResumeDownloadButton = () => {
         height={30}
         width={30}
       />
-    </Link>
+    </a>
   );
 };
