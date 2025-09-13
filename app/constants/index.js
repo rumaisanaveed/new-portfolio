@@ -11,8 +11,34 @@ import HashnodeDark from "../../public/icons/hashnodeDark.svg";
 
 export const experience = [
   {
+    title: "Associate Software Engineer - KoderLabs",
+    duration: "June 2025 - Present",
+    description: [
+      "Developing fully functional and scalable mobile applications using React Native.",
+      "Integrating RESTful APIs to enable dynamic and real-time features within the apps.",
+      "Working on Google Maps-based APIs, implementing location-based features.",
+      "Proactively participating in bug fixing, identifying issues, and ensuring smooth user experiences.",
+      "Conducting research and development (R&D) for implementing new features and solving technical challenges.",
+      "Taking part in code reviews to maintain clean, efficient, and maintainable code while adhering to industry best practices.",
+      "Collaborating closely with the backend team for API design, optimization, and smooth integration.",
+      "Ensuring cross-platform compatibility and performance optimization for both Android and iOS platforms.",
+      "Writing reusable components and managing application state using tools like Zustand.",
+      "Continuously learning and staying updated with the latest trends, tools, and best practices in mobile app development to enhance productivity and code quality.",
+    ],
+    tech: [
+      "React.js",
+      "React Native",
+      "TypeScript",
+      "Zustand",
+      "React Query",
+      "Api Integration",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
     title: "Associate Software Engineer - Native Brains",
-    duration: "May 2024 - July 2024",
+    duration: "May 2024 - June 2024",
     description: [
       "Translated wireframes into functional and responsive front-end code, contributing to a seamless user experience and efficient project development.",
       "Collaborated closely with backend developers and designers, ensuring smooth integration of design elements and APIs to meet project requirements and deadlines.",
